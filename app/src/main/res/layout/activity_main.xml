@@ -7,139 +7,662 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/one5"
+        android:id="@+id/one48"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="576dp"
-        android:layout_marginTop="140dp"
-        android:layout_marginBottom="440dp"
+        android:layout_marginBottom="30dp"
         android:src="@drawable/one"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/one6"
+        app:layout_constraintEnd_toStartOf="@+id/one46"
+        app:layout_constraintStart_toEndOf="@+id/one52"
+        app:layout_constraintTop_toBottomOf="@+id/one30"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/one48"
+        app:layout_constraintTop_toBottomOf="@+id/one30"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/one54"
+        app:layout_constraintStart_toEndOf="@+id/one53"
+        app:layout_constraintTop_toBottomOf="@+id/one34"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/one52"
+        app:layout_constraintStart_toEndOf="@+id/one51"
+        app:layout_constraintTop_toBottomOf="@+id/one33"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/one50"
+        app:layout_constraintStart_toEndOf="@+id/one49"
+        app:layout_constraintTop_toBottomOf="@+id/one28"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/one48"
+        app:layout_constraintStart_toEndOf="@+id/one50"
+        app:layout_constraintTop_toBottomOf="@+id/one32"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/one47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/one34"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/one49"
+        app:layout_constraintStart_toEndOf="@+id/one47"
+        app:layout_constraintTop_toBottomOf="@+id/one36"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/one51"
+        app:layout_constraintStart_toEndOf="@+id/one54"
+        app:layout_constraintTop_toBottomOf="@+id/one28"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one35"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/one39"
+        app:layout_constraintTop_toBottomOf="@+id/one17"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one34"
+        app:layout_constraintEnd_toStartOf="@+id/one45"
+        app:layout_constraintStart_toEndOf="@+id/one44"
+        app:layout_constraintTop_toBottomOf="@+id/one16"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one30"
+        app:layout_constraintEnd_toStartOf="@+id/one37"
+        app:layout_constraintStart_toEndOf="@+id/one43"
+        app:layout_constraintTop_toBottomOf="@+id/one19"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one28"
+        app:layout_constraintEnd_toStartOf="@+id/one42"
+        app:layout_constraintStart_toEndOf="@+id/one45"
+        app:layout_constraintTop_toBottomOf="@+id/one18"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one33"
+        app:layout_constraintEnd_toStartOf="@+id/one43"
+        app:layout_constraintStart_toEndOf="@+id/one42"
+        app:layout_constraintTop_toBottomOf="@+id/one20"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one29"
+        app:layout_constraintEnd_toStartOf="@+id/one41"
+        app:layout_constraintStart_toEndOf="@+id/one40"
+        app:layout_constraintTop_toBottomOf="@+id/one20"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one32"
+        app:layout_constraintEnd_toStartOf="@+id/one39"
+        app:layout_constraintStart_toEndOf="@+id/one41"
+        app:layout_constraintTop_toBottomOf="@+id/one22"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one34"
+        app:layout_constraintEnd_toStartOf="@+id/one38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/one16"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one31"
+        app:layout_constraintEnd_toStartOf="@+id/one40"
+        app:layout_constraintStart_toEndOf="@+id/one38"
+        app:layout_constraintTop_toBottomOf="@+id/one21"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one49"
+        app:layout_constraintEnd_toStartOf="@+id/one29"
+        app:layout_constraintStart_toEndOf="@+id/one31"
+        app:layout_constraintTop_toBottomOf="@+id/one40"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one48"
+        app:layout_constraintEnd_toStartOf="@+id/one35"
+        app:layout_constraintStart_toEndOf="@+id/one32"
+        app:layout_constraintTop_toBottomOf="@+id/one39"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one52"
+        app:layout_constraintEnd_toStartOf="@+id/one30"
+        app:layout_constraintStart_toEndOf="@+id/one33"
+        app:layout_constraintTop_toBottomOf="@+id/one41"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one50"
+        app:layout_constraintEnd_toStartOf="@+id/one32"
+        app:layout_constraintStart_toEndOf="@+id/one29"
+        app:layout_constraintTop_toBottomOf="@+id/one41"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one51"
+        app:layout_constraintEnd_toStartOf="@+id/one33"
+        app:layout_constraintStart_toEndOf="@+id/one28"
+        app:layout_constraintTop_toBottomOf="@+id/one40"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one47"
+        app:layout_constraintEnd_toStartOf="@+id/one36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/one44"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one47"
+        app:layout_constraintEnd_toStartOf="@+id/one31"
+        app:layout_constraintStart_toEndOf="@+id/one34"
+        app:layout_constraintTop_toBottomOf="@+id/one38"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one54"
+        app:layout_constraintEnd_toStartOf="@+id/one28"
+        app:layout_constraintStart_toEndOf="@+id/one36"
+        app:layout_constraintTop_toBottomOf="@+id/one38"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="85dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one46"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/one30"
+        app:layout_constraintTop_toBottomOf="@+id/one37"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one18"
+        app:layout_constraintEnd_toStartOf="@+id/one12"
+        app:layout_constraintStart_toEndOf="@+id/one14"
+        app:layout_constraintTop_toBottomOf="@+id/one4"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one"
+        app:layout_constraintEnd_toStartOf="@+id/one24"
+        app:layout_constraintStart_toEndOf="@+id/one11"
+        app:layout_constraintTop_toBottomOf="@+id/one5"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one19"
+        app:layout_constraintEnd_toStartOf="@+id/one26"
+        app:layout_constraintStart_toEndOf="@+id/one23"
+        app:layout_constraintTop_toBottomOf="@+id/one8"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="328dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="828dp"
+        android:layout_marginBottom="510dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.065"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one22"
+        app:layout_constraintEnd_toStartOf="@+id/one13"
+        app:layout_constraintStart_toEndOf="@+id/one24"
+        app:layout_constraintTop_toBottomOf="@+id/one7"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="700dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="456dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="273dp"
+        android:layout_marginEnd="1072dp"
+        android:layout_marginBottom="507dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="85dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/one13"
+        app:layout_constraintTop_toBottomOf="@+id/one9"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="273dp"
+        android:layout_marginEnd="952dp"
+        android:layout_marginBottom="507dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one41"
+        app:layout_constraintEnd_toStartOf="@+id/one22"
+        app:layout_constraintStart_toEndOf="@+id/one"
+        app:layout_constraintTop_toBottomOf="@+id/one24"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="952dp"
+        android:layout_marginBottom="390dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="328dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="828dp"
+        android:layout_marginBottom="390dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="452dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="704dp"
+        android:layout_marginBottom="390dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
         android:id="@+id/one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one42"
+        app:layout_constraintEnd_toStartOf="@+id/one20"
+        app:layout_constraintStart_toEndOf="@+id/one18"
+        app:layout_constraintTop_toBottomOf="@+id/one12"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one43"
+        app:layout_constraintEnd_toStartOf="@+id/one19"
+        app:layout_constraintStart_toEndOf="@+id/one20"
+        app:layout_constraintTop_toBottomOf="@+id/one23"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one39"
+        app:layout_constraintEnd_toStartOf="@+id/one17"
+        app:layout_constraintStart_toEndOf="@+id/one22"
+        app:layout_constraintTop_toBottomOf="@+id/one13"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="84dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one37"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/one19"
+        app:layout_constraintTop_toBottomOf="@+id/one26"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="84dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="390dp"
         android:layout_marginEnd="1072dp"
-        android:layout_marginBottom="440dp"
+        android:layout_marginBottom="390dp"
         android:src="@drawable/one"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.065"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one12"
+        app:layout_constraintEnd_toStartOf="@+id/one6"
+        app:layout_constraintStart_toEndOf="@+id/one4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/one10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/one25"
+        app:layout_constraintEnd_toStartOf="@+id/one2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
         android:id="@+id/one2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="204dp"
-        android:layout_marginTop="140dp"
-        android:layout_marginBottom="440dp"
+        android:layout_marginTop="2dp"
         android:src="@drawable/one"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/one25"
         app:layout_constraintEnd_toStartOf="@+id/one3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.065"
+        app:layout_constraintStart_toEndOf="@+id/one10"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
         android:id="@+id/one9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="1070dp"
-        android:layout_marginTop="153dp"
-        android:layout_marginEnd="86dp"
-        android:layout_marginBottom="627dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="85dp"
         android:src="@drawable/one"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/one26"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/one8"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
         android:id="@+id/one8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="946dp"
-        android:layout_marginTop="153dp"
-        android:layout_marginEnd="210dp"
-        android:layout_marginBottom="627dp"
+        android:layout_marginTop="2dp"
         android:src="@drawable/one"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/one13"
+        app:layout_constraintEnd_toStartOf="@+id/one9"
+        app:layout_constraintStart_toEndOf="@+id/one7"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
         android:id="@+id/one4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="452dp"
-        android:layout_marginTop="140dp"
-        android:layout_marginBottom="440dp"
+        android:layout_marginTop="2dp"
         android:src="@drawable/one"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/one11"
         app:layout_constraintEnd_toStartOf="@+id/one5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.065"
+        app:layout_constraintStart_toEndOf="@+id/one3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
         android:id="@+id/one3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="328dp"
-        android:layout_marginTop="140dp"
-        android:layout_marginBottom="440dp"
+        android:layout_marginTop="2dp"
         android:src="@drawable/one"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/one11"
         app:layout_constraintEnd_toStartOf="@+id/one4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.065"
+        app:layout_constraintStart_toEndOf="@+id/one2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
         android:id="@+id/one7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="824dp"
-        android:layout_marginTop="140dp"
-        android:layout_marginBottom="440dp"
+        android:layout_marginTop="3dp"
         android:src="@drawable/one"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/one23"
         app:layout_constraintEnd_toStartOf="@+id/one8"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.065"
+        app:layout_constraintStart_toEndOf="@+id/one6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
         android:id="@+id/one6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="700dp"
-        android:layout_marginTop="140dp"
-        android:layout_marginBottom="440dp"
+        android:layout_marginTop="2dp"
         android:src="@drawable/one"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/one24"
         app:layout_constraintEnd_toStartOf="@+id/one7"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.065"
+        app:layout_constraintStart_toEndOf="@+id/one5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
         tools:srcCompat="@drawable/one" />
 
     <ImageView
