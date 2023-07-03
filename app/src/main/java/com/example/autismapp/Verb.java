@@ -1,13 +1,11 @@
 package com.example.autismapp;
 
-public class Verb extends Word
-{
+public class Verb extends Word {
     // yo, tu, el/ella, ellos/ellas, nosotros
     private String[] conjugations;
     private String type;
     private String conjugated;
-    public Verb (String input)
-    {
+    public Verb (String input) {
         super(input);
         type = input.substring(input.length()-2);
 
@@ -24,7 +22,4 @@ public class Verb extends Word
     public String toString(){
         return conjugated;
     }
-
-
-
 }

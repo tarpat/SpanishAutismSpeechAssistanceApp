@@ -9,27 +9,27 @@ public class Subject extends Word
     {
         super(input);
         switch(input){
-            case "yo":
+            case "Yo":
                 type=1;
                 break;
 
-            case "tu":
+            case "Tu":
                 type=2;
                 break;
 
-            case "el":
-            case "ella":
-            case "usted":
+            case "El":
+            case "Ella":
+            case "Usted":
                 type=3;
                 break;
 
-            case "ellos":
-            case "ellas":
-            case "ustedes":
+            case "Ellos":
+            case "Ellas":
+            case "Ustedes":
                 type=4;
                 break;
 
-            case "nosotros":
+            case "Nosotros":
                 type=5;
                 break;
         }

@@ -118,13 +118,13 @@
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
-        android:id="@+id/one8"
+        android:id="@+id/irButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
+        android:src="@drawable/ir"
         app:layout_constraintEnd_toStartOf="@+id/one2"
         app:layout_constraintTop_toTopOf="@+id/one2"
-        tools:srcCompat="@drawable/one" />
+        tools:srcCompat="@drawable/ir" />
 
     <ImageButton
         android:id="@+id/one20"
@@ -135,7 +135,7 @@
         android:src="@drawable/one"
         app:layout_constraintBottom_toTopOf="@+id/one30"
         app:layout_constraintStart_toEndOf="@+id/one17"
-        app:layout_constraintTop_toTopOf="@+id/one10"
+        app:layout_constraintTop_toTopOf="@+id/nosotrosButton"
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
@@ -200,7 +200,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/one"
         app:layout_constraintStart_toEndOf="@+id/one22"
-        app:layout_constraintTop_toBottomOf="@+id/one10"
+        app:layout_constraintTop_toBottomOf="@+id/nosotrosButton"
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
@@ -235,7 +235,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/one"
-        app:layout_constraintStart_toEndOf="@+id/one10"
+        app:layout_constraintStart_toEndOf="@+id/nosotrosButton"
         app:layout_constraintTop_toTopOf="@+id/one17"
         tools:srcCompat="@drawable/one" />
 
@@ -321,7 +321,7 @@
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
-        android:id="@+id/one10"
+        android:id="@+id/nosotrosButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/one"
