@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
         yoButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if(addImage(R.drawable.yo)) {
-                    addWord("Yo", "Subject", false);
+                    addWord("Yo", new String[1],"Subject", false);
                 }
             }
         });
@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
         tuButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if(addImage(R.drawable.tu)) {
-                    addWord("Tú", "Subject", false);
+                    addWord("Tú", new String[1],"Subject", false);
                 }
             }
         });
@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
         elButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if(addImage(R.drawable.el_1)) {
-                    addWord("Él", "Subject", false);
+                    addWord("Él", new String[1],"Subject", false);
                 }
             }
         });
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
         ellaButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if(addImage(R.drawable.ella)) {
-                    addWord("Ella", "Subject", false);
+                    addWord("Ella", new String[1],"Subject", false);
                 }
             }
         });
@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
         ellosButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if(addImage(R.drawable.ellos)) {
-                    addWord("Ellos", "Subject", false);
+                    addWord("Ellos", new String[1],"Subject", false);
                 }
             }
         });
@@ -133,8 +133,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Verb Buttons
+        ImageButton irButton = (ImageButton) findViewById(R.id.irButton);
+        irButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+//                System.out.println(getSubject());
+                if(addImage(R.drawable.ir)) {
+                    String[] conjugations = {"yo form", "tu form", "el form", "ellos form", "nosotros form"};
+                    addWord("ir", conjugations, "Verb", false);
+                }
+            }
+        });
+
     }
-    public void addWord(String word, String type, boolean gender) {
+    public void addWord(String word, String[] arr, String type, boolean gender) {
         if(numChars + word.length() < 101) {
             numChars += word.length();
             if (type.equals("Subject")) {
@@ -142,7 +154,13 @@ public class MainActivity extends AppCompatActivity {
             } else if (type.equals("Noun")) {
                 sentence.add(new Noun(word, gender));
             } else if (type.equals("Verb")) {
-                sentence.add(new Verb(word));
+                Verb verb = new Verb(word, arr);
+                if(getSubject() > -1) {
+                    verb.conjugate(getSubject());
+                    sentence.add(verb);
+                } else {
+                    removeLastImage();
+                }
             }
         }
         printSentence();
@@ -151,7 +169,7 @@ public class MainActivity extends AppCompatActivity {
     public void printSentence() {
         String temp = "";
         for(Word word : sentence) {
-            temp += word.toString();
+            temp += word.toString() + " ";
         }
         mainTextView.setText(temp);
     }
@@ -180,5 +198,14 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         return false;
+    }
+
+    public int getSubject() {
+        for(Word word : sentence) {
+            if(word instanceof Subject) {
+                return ((Subject) word).get_Type();
+            }
+        }
+        return -1;
     }
 }

@@ -13,11 +13,11 @@ public class Subject extends Word
                 type=1;
                 break;
 
-            case "Tu":
+            case "Tú":
                 type=2;
                 break;
 
-            case "El":
+            case "Él":
             case "Ella":
             case "Usted":
                 type=3;
@@ -35,10 +35,10 @@ public class Subject extends Word
         }
     }
 
-    public int get_Type(){
+    public int get_Type() {
         return type;
     }
-    public String toString(){
+    public String toString() {
         return super.text;
     }
 

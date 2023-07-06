@@ -121,10 +121,10 @@
         android:id="@+id/irButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ir"
+        android:src="@drawable/ir_word"
         app:layout_constraintEnd_toStartOf="@+id/one2"
         app:layout_constraintTop_toTopOf="@+id/one2"
-        tools:srcCompat="@drawable/ir" />
+        tools:srcCompat="@drawable/ir_word" />
 
     <ImageButton
         android:id="@+id/one20"
@@ -547,13 +547,14 @@
     <TextView
         android:id="@+id/mainTextView"
         android:layout_width="1271dp"
-        android:layout_height="31dp"
+        android:layout_height="37dp"
         android:textAlignment="viewStart"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174" />
+        app:layout_constraintVertical_bias="0.172" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

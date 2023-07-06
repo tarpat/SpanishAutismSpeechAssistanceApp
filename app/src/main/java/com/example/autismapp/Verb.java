@@ -3,12 +3,10 @@ package com.example.autismapp;
 public class Verb extends Word {
     // yo, tu, el/ella, ellos/ellas, nosotros
     private String[] conjugations;
-    private String type;
     private String conjugated;
-    public Verb (String input) {
+    public Verb (String input, String[] conjugationArr) {
         super(input);
-        type = input.substring(input.length()-2);
-
+        conjugations = conjugationArr;
     }
 
     public void addConjugation(String[] conjugation_array){
