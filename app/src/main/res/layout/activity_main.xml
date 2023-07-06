@@ -12,18 +12,18 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="1dp"
         android:src="@drawable/ellos_word"
-        app:layout_constraintBottom_toTopOf="@+id/one18"
-        app:layout_constraintEnd_toEndOf="@+id/one19"
+        app:layout_constraintBottom_toTopOf="@+id/llamarButton"
+        app:layout_constraintEnd_toEndOf="@+id/necesitarButton"
         tools:srcCompat="@drawable/ellos_word" />
 
     <ImageButton
-        android:id="@+id/one28"
+        android:id="@+id/parqueButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toEndOf="@+id/one14"
-        app:layout_constraintTop_toBottomOf="@+id/one14"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/parque_infantil_word"
+        app:layout_constraintStart_toEndOf="@+id/elegirButton"
+        app:layout_constraintTop_toBottomOf="@+id/elegirButton"
+        tools:srcCompat="@drawable/parque_infantil_word" />
 
     <ImageButton
         android:id="@+id/one45"
@@ -41,7 +41,7 @@
         android:layout_marginStart="1dp"
         android:src="@drawable/one"
         app:layout_constraintStart_toStartOf="@+id/one31"
-        app:layout_constraintTop_toBottomOf="@+id/one19"
+        app:layout_constraintTop_toBottomOf="@+id/necesitarButton"
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
@@ -49,8 +49,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/one"
-        app:layout_constraintStart_toStartOf="@+id/one20"
-        app:layout_constraintTop_toBottomOf="@+id/one20"
+        app:layout_constraintStart_toStartOf="@+id/casaButton"
+        app:layout_constraintTop_toBottomOf="@+id/casaButton"
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
@@ -82,13 +82,13 @@
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
-        android:id="@+id/one18"
+        android:id="@+id/llamarButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
+        android:src="@drawable/llamar_word"
         app:layout_constraintStart_toEndOf="@+id/one24"
         app:layout_constraintTop_toBottomOf="@+id/ellaButton"
-        tools:srcCompat="@drawable/one" />
+        tools:srcCompat="@drawable/llamar_word" />
 
     <ImageButton
         android:id="@+id/one33"
@@ -100,13 +100,13 @@
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
-        android:id="@+id/one26"
+        android:id="@+id/escuelaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toStartOf="@+id/one14"
-        app:layout_constraintTop_toBottomOf="@+id/one14"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/escuela_word"
+        app:layout_constraintStart_toStartOf="@+id/elegirButton"
+        app:layout_constraintTop_toBottomOf="@+id/elegirButton"
+        tools:srcCompat="@drawable/escuela_word" />
 
     <ImageButton
         android:id="@+id/one34"
@@ -122,21 +122,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ir_word"
-        app:layout_constraintEnd_toStartOf="@+id/one2"
-        app:layout_constraintTop_toTopOf="@+id/one2"
+        app:layout_constraintEnd_toStartOf="@+id/banarButton"
+        app:layout_constraintTop_toTopOf="@+id/banarButton"
         tools:srcCompat="@drawable/ir_word" />
 
     <ImageButton
-        android:id="@+id/one20"
+        android:id="@+id/casaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="120dp"
         android:layout_marginBottom="120dp"
-        android:src="@drawable/one"
+        android:src="@drawable/casa_word"
         app:layout_constraintBottom_toTopOf="@+id/one30"
-        app:layout_constraintStart_toEndOf="@+id/one17"
+        app:layout_constraintStart_toEndOf="@+id/casaAmigoButton"
         app:layout_constraintTop_toTopOf="@+id/nosotrosButton"
-        tools:srcCompat="@drawable/one" />
+        tools:srcCompat="@drawable/casa_word" />
 
     <ImageButton
         android:id="@+id/one47"
@@ -148,13 +148,13 @@
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
-        android:id="@+id/one17"
+        android:id="@+id/casaAmigoButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
+        android:src="@drawable/casa_amigo_word"
         app:layout_constraintStart_toEndOf="@+id/one21"
-        app:layout_constraintTop_toTopOf="@+id/one20"
-        tools:srcCompat="@drawable/one" />
+        app:layout_constraintTop_toTopOf="@+id/casaButton"
+        tools:srcCompat="@drawable/casa_amigo_word" />
 
     <ImageButton
         android:id="@+id/one27"
@@ -171,7 +171,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/one"
         app:layout_constraintStart_toEndOf="@+id/one37"
-        app:layout_constraintTop_toBottomOf="@+id/one15"
+        app:layout_constraintTop_toBottomOf="@+id/traerButton"
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
@@ -195,13 +195,13 @@
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
-        android:id="@+id/one12"
+        android:id="@+id/quererButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
+        android:src="@drawable/querer_word"
         app:layout_constraintStart_toEndOf="@+id/one22"
         app:layout_constraintTop_toBottomOf="@+id/nosotrosButton"
-        tools:srcCompat="@drawable/one" />
+        tools:srcCompat="@drawable/querer_word" />
 
     <ImageButton
         android:id="@+id/one46"
@@ -231,22 +231,22 @@
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
-        android:id="@+id/one13"
+        android:id="@+id/casaAmigaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
+        android:src="@drawable/casa_amiga_word"
         app:layout_constraintStart_toEndOf="@+id/nosotrosButton"
-        app:layout_constraintTop_toTopOf="@+id/one17"
-        tools:srcCompat="@drawable/one" />
+        app:layout_constraintTop_toTopOf="@+id/casaAmigoButton"
+        tools:srcCompat="@drawable/casa_amiga_word" />
 
     <ImageButton
-        android:id="@+id/one19"
+        android:id="@+id/necesitarButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
+        android:src="@drawable/necesitar_word"
         app:layout_constraintStart_toStartOf="@+id/one22"
         app:layout_constraintTop_toBottomOf="@+id/ellosButton"
-        tools:srcCompat="@drawable/one" />
+        tools:srcCompat="@drawable/necesitar_word" />
 
     <ImageButton
         android:id="@+id/one29"
@@ -263,17 +263,17 @@
         android:layout_height="wrap_content"
         android:src="@drawable/one"
         app:layout_constraintStart_toEndOf="@+id/one36"
-        app:layout_constraintTop_toBottomOf="@+id/one17"
+        app:layout_constraintTop_toBottomOf="@+id/casaAmigoButton"
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
-        android:id="@+id/one2"
+        android:id="@+id/banarButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
-        app:layout_constraintEnd_toStartOf="@+id/one11"
-        app:layout_constraintTop_toTopOf="@+id/one11"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/banar_word"
+        app:layout_constraintEnd_toStartOf="@+id/comprarButton"
+        app:layout_constraintTop_toTopOf="@+id/comprarButton"
+        tools:srcCompat="@drawable/banar_word" />
 
     <ImageButton
         android:id="@+id/one32"
@@ -285,13 +285,13 @@
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
-        android:id="@+id/one15"
+        android:id="@+id/traerButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toEndOf="@+id/one14"
-        app:layout_constraintTop_toTopOf="@+id/one14"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/traer_word"
+        app:layout_constraintStart_toEndOf="@+id/elegirButton"
+        app:layout_constraintTop_toTopOf="@+id/elegirButton"
+        tools:srcCompat="@drawable/traer_word" />
 
     <ImageButton
         android:id="@+id/ellaButton"
@@ -324,19 +324,19 @@
         android:id="@+id/nosotrosButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
+        android:src="@drawable/nosotros_word"
         app:layout_constraintStart_toEndOf="@+id/ellosButton"
         app:layout_constraintTop_toTopOf="@+id/ellosButton"
-        tools:srcCompat="@drawable/one" />
+        tools:srcCompat="@drawable/nosotros_word" />
 
     <ImageButton
-        android:id="@+id/one16"
+        android:id="@+id/jugarButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
+        android:src="@drawable/jugar_word"
         app:layout_constraintStart_toEndOf="@+id/tuButton"
         app:layout_constraintTop_toBottomOf="@+id/tuButton"
-        tools:srcCompat="@drawable/one" />
+        tools:srcCompat="@drawable/jugar_word" />
 
     <ImageButton
         android:id="@+id/yoButton"
@@ -359,7 +359,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="1dp"
         android:src="@drawable/el_word"
-        app:layout_constraintEnd_toEndOf="@+id/one16"
+        app:layout_constraintEnd_toEndOf="@+id/jugarButton"
         app:layout_constraintTop_toTopOf="@+id/tuButton"
         tools:srcCompat="@drawable/el_word" />
 
@@ -377,19 +377,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/one"
-        app:layout_constraintStart_toStartOf="@+id/one17"
-        app:layout_constraintTop_toBottomOf="@+id/one20"
+        app:layout_constraintStart_toStartOf="@+id/casaAmigoButton"
+        app:layout_constraintTop_toBottomOf="@+id/casaButton"
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
-        android:id="@+id/one14"
+        android:id="@+id/elegirButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
-        android:src="@drawable/one"
+        android:src="@drawable/elegir_word"
         app:layout_constraintStart_toStartOf="@+id/yoButton"
         app:layout_constraintTop_toBottomOf="@+id/yoButton"
-        tools:srcCompat="@drawable/one" />
+        tools:srcCompat="@drawable/elegir_word" />
 
     <ImageButton
         android:id="@+id/one42"
@@ -407,18 +407,18 @@
         android:layout_height="wrap_content"
         android:src="@drawable/one"
         app:layout_constraintStart_toStartOf="@+id/one44"
-        app:layout_constraintTop_toBottomOf="@+id/one26"
+        app:layout_constraintTop_toBottomOf="@+id/escuelaButton"
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
-        android:id="@+id/one11"
+        android:id="@+id/comprarButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="1dp"
-        android:src="@drawable/one"
-        app:layout_constraintBottom_toTopOf="@+id/one20"
-        app:layout_constraintEnd_toEndOf="@+id/one20"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/comprar_word"
+        app:layout_constraintBottom_toTopOf="@+id/casaButton"
+        app:layout_constraintEnd_toEndOf="@+id/casaButton"
+        tools:srcCompat="@drawable/comprar_word" />
 
     <ImageButton
         android:id="@+id/one37"

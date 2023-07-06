@@ -125,6 +125,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        ImageButton nosotrosButton = (ImageButton) findViewById(R.id.nosotrosButton);
+        nosotrosButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.nosotros)) {
+                    addWord("Nosotros", new String[1],"Subject", false);
+                }
+            }
+        });
+
         ImageButton backspaceButton = (ImageButton) findViewById(R.id.backspaceButton);
         backspaceButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -139,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 //                System.out.println(getSubject());
                 if(addImage(R.drawable.ir)) {
-                    String[] conjugations = {"yo form", "tu form", "el form", "ellos form", "nosotros form"};
+                    String[] conjugations = {"voy", "vas", "va", "van", "vamos"};
                     addWord("ir", conjugations, "Verb", false);
                 }
             }
