@@ -146,10 +146,136 @@ public class MainActivity extends AppCompatActivity {
         ImageButton irButton = (ImageButton) findViewById(R.id.irButton);
         irButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-//                System.out.println(getSubject());
                 if(addImage(R.drawable.ir)) {
-                    String[] conjugations = {"voy", "vas", "va", "van", "vamos"};
+                    String[] conjugations = {"voy a", "vas a", "va a", "van a", "vamos a"};
                     addWord("ir", conjugations, "Verb", false);
+                }
+            }
+        });
+
+        ImageButton quererButton = (ImageButton) findViewById(R.id.quererButton);
+        quererButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.querer)) {
+                    String[] conjugations = {"quiero", "quieres", "quiere", "quieren", "queremos"};
+                    addWord("querer", conjugations, "Verb", false);
+                }
+            }
+        });
+
+        ImageButton necesitarButton = (ImageButton) findViewById(R.id.necesitarButton);
+        necesitarButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.necesitar)) {
+                    String[] conjugations = {"necesito", "necesitas", "necesita", "necesitan", " necesitamos"};
+                    addWord("necesitar", conjugations, "Verb", false);
+                }
+            }
+        });
+
+        ImageButton llamarButton = (ImageButton) findViewById(R.id.llamarButton);
+        llamarButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.llamar)) {
+                    String[] conjugations = {"llamo", "llamas", "llama", "llaman", "llamamos"};
+                    addWord("llamar", conjugations, "Verb", false);
+                }
+            }
+        });
+
+        ImageButton jugarButton = (ImageButton) findViewById(R.id.jugarButton);
+        jugarButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.jugar)) {
+                    String[] conjugations = {"juego", "juegas", "juega", "juegan", "jugamos"};
+                    addWord("jugar", conjugations, "Verb", false);
+                }
+            }
+        });
+
+        ImageButton traerButton = (ImageButton) findViewById(R.id.traerButton);
+        traerButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.traer)) {
+                    String[] conjugations = {"traigo", "traes", "trae", "traen", "traemos"};
+                    addWord("traer", conjugations, "Verb", false);
+                }
+            }
+        });
+
+        ImageButton elegirButton = (ImageButton) findViewById(R.id.elegirButton);
+        elegirButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.elegir)) {
+                    String[] conjugations = {"elijo", "eliges", "elige", "eligen", "elegimos"};
+                    addWord("elegir", conjugations, "Verb", false);
+                }
+            }
+        });
+
+        ImageButton banarButton = (ImageButton) findViewById(R.id.banarButton);
+        banarButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.banar)) {
+                    String[] conjugations = {"baño", "bañas", "baña", "bañan", "bañamos"};
+                    addWord("banar", conjugations, "Verb", false);
+                }
+            }
+        });
+
+        ImageButton comprarButton = (ImageButton) findViewById(R.id.comprarButton);
+        comprarButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.comprar)) {
+                    String[] conjugations = {"compro", "compras", "compra", "compran", "compramos"};
+                    addWord("comprar", conjugations, "Verb", false);
+                }
+            }
+        });
+
+
+        // Places
+        ImageButton casaAmigaButton = (ImageButton) findViewById(R.id.casaAmigaButton);
+        casaAmigaButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.casa_amiga)) {
+                    addWord("casa de mi amiga", new String[1], "Noun", false); //female is false
+                }
+            }
+        });
+
+        ImageButton casaAmigoButton = (ImageButton) findViewById(R.id.casaAmigoButton);
+        casaAmigoButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.casa_amigo)) {
+                    addWord("casa de mi amigo", new String[1], "Noun", false); //female is false
+                }
+            }
+        });
+
+        ImageButton casaButton = (ImageButton) findViewById(R.id.casaButton);
+        casaButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.casa)) {
+                    addWord("mi casa", new String[1], "Noun", false); //female is false
+                }
+            }
+        });
+
+        ImageButton escuelaButton = (ImageButton) findViewById(R.id.escuelaButton);
+        escuelaButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.escuela)) {
+                    addWord("escuela", new String[1], "Noun", false); //female is false
+                }
+            }
+        });
+
+        ImageButton parqueButton = (ImageButton) findViewById(R.id.parqueButton);
+        parqueButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.parque_infantil)) {
+                    addWord("parque infantil", new String[1], "Noun", false); //female is false
                 }
             }
         });
