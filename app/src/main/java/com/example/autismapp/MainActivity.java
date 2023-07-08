@@ -27,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
     ImageView imageView9;
     ImageView imageView10;
     ArrayList<ImageView> imageViews;
-    //d
+
+    boolean conjugatedVerb;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -148,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if(addImage(R.drawable.ir)) {
                     String[] conjugations = {"voy a", "vas a", "va a", "van a", "vamos a"};
-                    addWord("ir", conjugations, "Verb", false);
+                    addWord("ir a", conjugations, "Verb", false);
                 }
             }
         });
@@ -234,7 +235,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        // Places
+        // Nouns
         ImageButton casaAmigaButton = (ImageButton) findViewById(R.id.casaAmigaButton);
         casaAmigaButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -280,7 +281,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        ImageButton abrigoButton = (ImageButton) findViewById(R.id.abrigoButton);
+        abrigoButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.abrigo)) {
+                    addWord("un abrigo", new String[1], "Noun", true);
+                }
+            }
+        });
+
     }
+
+
     public void addWord(String word, String[] arr, String type, boolean gender) {
         if(numChars + word.length() < 101) {
             numChars += word.length();
@@ -289,12 +301,19 @@ public class MainActivity extends AppCompatActivity {
             } else if (type.equals("Noun")) {
                 sentence.add(new Noun(word, gender));
             } else if (type.equals("Verb")) {
-                Verb verb = new Verb(word, arr);
-                if(getSubject() > -1) {
-                    verb.conjugate(getSubject());
-                    sentence.add(verb);
+                if(!conjugatedVerb) {
+                    Verb verb = new Verb(word, arr);
+                    if (getSubject() > -1) {
+                        verb.conjugate(getSubject());
+                        sentence.add(verb);
+                        conjugatedVerb = true;
+                    } else {
+                        removeLastImage();
+                    }
                 } else {
-                    removeLastImage();
+                    Verb verb = new Verb(word, arr);
+                    verb.setInfinitiveConj(word);
+                    sentence.add(verb);
                 }
             }
         }
@@ -310,9 +329,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void removeLastWord() {
-        if(sentence.size() > 0)
-            sentence.remove(sentence.size()-1);
+        if(sentence.size() > 0) {
+            sentence.remove(sentence.size() - 1);
+            if(!verbPresent()) {
+                conjugatedVerb = false;
+            }
+        }
         printSentence();
+    }
+
+    public boolean verbPresent() {
+        for(Word word : sentence) {
+            if(word instanceof Verb) {
+                return true;
+            }
+        }
+        return false;
     }
 
     private void removeLastImage() {

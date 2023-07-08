@@ -86,7 +86,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/llamar_word"
-        app:layout_constraintStart_toEndOf="@+id/one24"
+        app:layout_constraintStart_toEndOf="@+id/abrigoButton"
         app:layout_constraintTop_toBottomOf="@+id/ellaButton"
         tools:srcCompat="@drawable/llamar_word" />
 
@@ -166,13 +166,13 @@
         tools:srcCompat="@drawable/one" />
 
     <ImageButton
-        android:id="@+id/one24"
+        android:id="@+id/abrigoButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
+        android:src="@drawable/abrigo_word"
         app:layout_constraintStart_toEndOf="@+id/one37"
         app:layout_constraintTop_toBottomOf="@+id/traerButton"
-        tools:srcCompat="@drawable/one" />
+        tools:srcCompat="@drawable/abrigo_word" />
 
     <ImageButton
         android:id="@+id/one44"
@@ -253,8 +253,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/one"
-        app:layout_constraintStart_toEndOf="@+id/one24"
-        app:layout_constraintTop_toTopOf="@+id/one24"
+        app:layout_constraintStart_toEndOf="@+id/abrigoButton"
+        app:layout_constraintTop_toTopOf="@+id/abrigoButton"
         tools:srcCompat="@drawable/one" />
 
     <ImageButton

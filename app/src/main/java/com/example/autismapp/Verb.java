@@ -20,4 +20,8 @@ public class Verb extends Word {
     public String toString(){
         return conjugated;
     }
+
+    public void setInfinitiveConj(String word) {
+        conjugated = word;
+    }
 }
