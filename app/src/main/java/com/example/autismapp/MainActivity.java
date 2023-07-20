@@ -138,8 +138,10 @@ public class MainActivity extends AppCompatActivity {
         ImageButton backspaceButton = (ImageButton) findViewById(R.id.backspaceButton);
         backspaceButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                removeLastWord();
-                removeLastImage();
+                if(sentence.size() > 0) {
+                    removeLastWord();
+                    removeLastImage();
+                }
             }
         });
 
@@ -290,6 +292,222 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        ImageButton aguaButton = (ImageButton) findViewById(R.id.aguaButton);
+        aguaButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.agua)) {
+                    addWord("agua", new String[1], "Noun", true);
+                }
+            }
+        });
+
+        ImageButton amigoButton = (ImageButton) findViewById(R.id.amigoButton);
+        amigoButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.amigo)) {
+                    addWord("mi amigo", new String[1], "Noun", true);
+                }
+            }
+        });
+
+        ImageButton amigaButton = (ImageButton) findViewById(R.id.amigaButton);
+        amigaButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.amiga)) {
+                    addWord("mi amiga", new String[1], "Noun", false);
+                }
+            }
+        });
+
+        ImageButton barcoButton = (ImageButton) findViewById(R.id.barcoButton);
+        barcoButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.barco)) {
+                    addWord("un barco", new String[1], "Noun", true);
+                }
+            }
+        });
+
+        ImageButton bebeButton = (ImageButton) findViewById(R.id.bebeButton);
+        bebeButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.bebe)) {
+                    addWord("un bebe", new String[1], "Noun", true);
+                }
+            }
+        });
+
+        ImageButton cajaButton = (ImageButton) findViewById(R.id.cajaButton);
+        cajaButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.caja)) {
+                    addWord("una caja", new String[1], "Noun", false);
+                }
+            }
+        });
+
+        ImageButton camaButton = (ImageButton) findViewById(R.id.camaButton);
+        camaButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.cama)) {
+                    addWord("una cama", new String[1], "Noun", false);
+                }
+            }
+        });
+
+        ImageButton carroButton = (ImageButton) findViewById(R.id.carroButton);
+        carroButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.carro)) {
+                    addWord("un carro", new String[1], "Noun", true);
+                }
+            }
+        });
+
+        ImageButton chocolateButton = (ImageButton) findViewById(R.id.chocolateButton);
+        chocolateButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.chocolate)) {
+                    addWord("chocolate", new String[1], "Noun", true);
+                }
+            }
+        });
+
+        ImageButton diaButton = (ImageButton) findViewById(R.id.diaButton);
+        diaButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.dia)) {
+                    addWord("dia", new String[1], "Noun", true);
+                }
+            }
+        });
+
+        ImageButton espaldaButton = (ImageButton) findViewById(R.id.espaldaButton);
+        espaldaButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.espalda)) {
+                    addWord("la espalda", new String[1], "Noun", false);
+                }
+            }
+        });
+
+        ImageButton gatoButton = (ImageButton) findViewById(R.id.gatoButton);
+        gatoButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.gato)) {
+                    addWord("gato", new String[1], "Noun", true);
+                }
+            }
+        });
+
+        ImageButton hermanoButton = (ImageButton) findViewById(R.id.hermanoButton);
+        hermanoButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.hermano)) {
+                    addWord("hermano", new String[1], "Noun", true);
+                }
+            }
+        });
+
+        ImageButton jugoButton = (ImageButton) findViewById(R.id.jugoButton);
+        jugoButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.jugo)) {
+                    addWord("el jugo", new String[1], "Noun", true);
+                }
+            }
+        });
+
+        ImageButton libroButton = (ImageButton) findViewById(R.id.libroButton);
+        libroButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.libro)) {
+                    addWord("libro", new String[1], "Noun", true);
+                }
+            }
+        });
+
+        ImageButton madreButton = (ImageButton) findViewById(R.id.madreButton);
+        madreButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.madre)) {
+                    addWord("madre", new String[1], "Noun", false);
+                }
+            }
+        });
+
+        ImageButton maizButton = (ImageButton) findViewById(R.id.maizButton);
+        maizButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.maiz)) {
+                    addWord("el maiz", new String[1], "Noun", true);
+                }
+            }
+        });
+
+        ImageButton manzanaButton = (ImageButton) findViewById(R.id.manzanaButton);
+        manzanaButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.manzana)) {
+                    addWord("una manzana", new String[1], "Noun", false);
+                }
+            }
+        });
+
+        ImageButton osoButton = (ImageButton) findViewById(R.id.osoButton);
+        osoButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.oso)) {
+                    addWord("un oso", new String[1], "Noun", true);
+                }
+            }
+        });
+
+        ImageButton pajaroButton = (ImageButton) findViewById(R.id.pajaroButton);
+        pajaroButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.pajaro)) {
+                    addWord("un pajaro", new String[1], "Noun", true);
+                }
+            }
+        });
+
+        ImageButton panButton = (ImageButton) findViewById(R.id.panButton);
+        panButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.pan)) {
+                    addWord("el pan", new String[1], "Noun", true);
+                }
+            }
+        });
+
+        ImageButton sillaButton = (ImageButton) findViewById(R.id.sillaButton);
+        sillaButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.silla)) {
+                    addWord("una silla", new String[1], "Noun", false);
+                }
+            }
+        });
+
+        ImageButton polloButton = (ImageButton) findViewById(R.id.polloButton);
+        polloButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.pollo)) {
+                    addWord("el pollo", new String[1], "Noun", true);
+                }
+            }
+        });
+
+        ImageButton perroButton = (ImageButton) findViewById(R.id.perroButton);
+        perroButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(addImage(R.drawable.perro)) {
+                    addWord("un perro", new String[1], "Noun", true);
+                }
+            }
+        });
+
     }
 
 
@@ -316,6 +534,8 @@ public class MainActivity extends AppCompatActivity {
                     sentence.add(verb);
                 }
             }
+        } else {
+            removeLastImage();
         }
         printSentence();
     }
@@ -330,7 +550,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void removeLastWord() {
         if(sentence.size() > 0) {
-            sentence.remove(sentence.size() - 1);
+            numChars -= (sentence.remove(sentence.size() - 1)).toString().length();
             if(!verbPresent()) {
                 conjugatedVerb = false;
             }

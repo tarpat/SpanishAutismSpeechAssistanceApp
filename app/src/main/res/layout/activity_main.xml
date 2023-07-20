@@ -26,32 +26,32 @@
         tools:srcCompat="@drawable/parque_infantil_word" />
 
     <ImageButton
-        android:id="@+id/one45"
+        android:id="@+id/panButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toEndOf="@+id/one40"
-        app:layout_constraintTop_toTopOf="@+id/one40"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/pan_word"
+        app:layout_constraintStart_toEndOf="@+id/pajaroButton"
+        app:layout_constraintTop_toTopOf="@+id/pajaroButton"
+        tools:srcCompat="@drawable/pan_word" />
 
     <ImageButton
-        android:id="@+id/one22"
+        android:id="@+id/amigaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toStartOf="@+id/one31"
+        android:src="@drawable/amiga_word"
+        app:layout_constraintStart_toStartOf="@+id/espaldaButton"
         app:layout_constraintTop_toBottomOf="@+id/necesitarButton"
-        tools:srcCompat="@drawable/one" />
+        tools:srcCompat="@drawable/amiga_word" />
 
     <ImageButton
-        android:id="@+id/one23"
+        android:id="@+id/cajaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
+        android:src="@drawable/caja_word"
         app:layout_constraintStart_toStartOf="@+id/casaButton"
         app:layout_constraintTop_toBottomOf="@+id/casaButton"
-        tools:srcCompat="@drawable/one" />
+        tools:srcCompat="@drawable/caja_word" />
 
     <ImageButton
         android:id="@+id/tuButton"
@@ -63,23 +63,23 @@
         tools:srcCompat="@drawable/tu_word" />
 
     <ImageButton
-        android:id="@+id/one31"
+        android:id="@+id/espaldaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toStartOf="@+id/one40"
-        app:layout_constraintTop_toBottomOf="@+id/one22"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/espalda_word"
+        app:layout_constraintStart_toStartOf="@+id/pajaroButton"
+        app:layout_constraintTop_toBottomOf="@+id/amigaButton"
+        tools:srcCompat="@drawable/espalda_word" />
 
     <ImageButton
-        android:id="@+id/one40"
+        android:id="@+id/pajaroButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="2dp"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toEndOf="@+id/one47"
-        app:layout_constraintTop_toBottomOf="@+id/one31"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/pajaro_word"
+        app:layout_constraintStart_toEndOf="@+id/osoButton"
+        app:layout_constraintTop_toBottomOf="@+id/espaldaButton"
+        tools:srcCompat="@drawable/pajaro_word" />
 
     <ImageButton
         android:id="@+id/llamarButton"
@@ -91,13 +91,13 @@
         tools:srcCompat="@drawable/llamar_word" />
 
     <ImageButton
-        android:id="@+id/one33"
+        android:id="@+id/chocolateButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toStartOf="@+id/one42"
-        app:layout_constraintTop_toTopOf="@+id/one37"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/chocolate_word"
+        app:layout_constraintStart_toStartOf="@+id/manzanaButton"
+        app:layout_constraintTop_toTopOf="@+id/carroButton"
+        tools:srcCompat="@drawable/chocolate_word" />
 
     <ImageButton
         android:id="@+id/escuelaButton"
@@ -109,13 +109,13 @@
         tools:srcCompat="@drawable/escuela_word" />
 
     <ImageButton
-        android:id="@+id/one34"
+        android:id="@+id/jugoButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toEndOf="@+id/one39"
-        app:layout_constraintTop_toTopOf="@+id/one32"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/jugo_word"
+        app:layout_constraintStart_toEndOf="@+id/sillaButton"
+        app:layout_constraintTop_toTopOf="@+id/libroButton"
+        tools:srcCompat="@drawable/jugo_word" />
 
     <ImageButton
         android:id="@+id/irButton"
@@ -133,102 +133,102 @@
         android:layout_marginTop="120dp"
         android:layout_marginBottom="120dp"
         android:src="@drawable/casa_word"
-        app:layout_constraintBottom_toTopOf="@+id/one30"
+        app:layout_constraintBottom_toTopOf="@+id/hermanoButton"
         app:layout_constraintStart_toEndOf="@+id/casaAmigoButton"
         app:layout_constraintTop_toTopOf="@+id/nosotrosButton"
         tools:srcCompat="@drawable/casa_word" />
 
     <ImageButton
-        android:id="@+id/one47"
+        android:id="@+id/osoButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toEndOf="@+id/one42"
-        app:layout_constraintTop_toTopOf="@+id/one42"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/oso_word"
+        app:layout_constraintStart_toEndOf="@+id/manzanaButton"
+        app:layout_constraintTop_toTopOf="@+id/manzanaButton"
+        tools:srcCompat="@drawable/oso_word" />
 
     <ImageButton
         android:id="@+id/casaAmigoButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/casa_amigo_word"
-        app:layout_constraintStart_toEndOf="@+id/one21"
+        app:layout_constraintStart_toEndOf="@+id/barcoButton"
         app:layout_constraintTop_toTopOf="@+id/casaButton"
         tools:srcCompat="@drawable/casa_amigo_word" />
 
     <ImageButton
-        android:id="@+id/one27"
+        android:id="@+id/amigoButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toEndOf="@+id/one22"
-        app:layout_constraintTop_toTopOf="@+id/one22"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/amigo_word"
+        app:layout_constraintStart_toEndOf="@+id/amigaButton"
+        app:layout_constraintTop_toTopOf="@+id/amigaButton"
+        tools:srcCompat="@drawable/amigo_word" />
 
     <ImageButton
         android:id="@+id/abrigoButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/abrigo_word"
-        app:layout_constraintStart_toEndOf="@+id/one37"
+        app:layout_constraintStart_toEndOf="@+id/carroButton"
         app:layout_constraintTop_toBottomOf="@+id/traerButton"
         tools:srcCompat="@drawable/abrigo_word" />
 
     <ImageButton
-        android:id="@+id/one44"
+        android:id="@+id/madreButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="81dp"
-        android:src="@drawable/one"
+        android:src="@drawable/madre_word"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/one35"
-        tools:srcCompat="@drawable/one" />
+        app:layout_constraintTop_toBottomOf="@+id/camaButton"
+        tools:srcCompat="@drawable/madre_word" />
 
     <ImageButton
-        android:id="@+id/one39"
+        android:id="@+id/sillaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="123dp"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toStartOf="@+id/one45"
-        app:layout_constraintTop_toTopOf="@+id/one45"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/silla_word"
+        app:layout_constraintStart_toStartOf="@+id/panButton"
+        app:layout_constraintTop_toTopOf="@+id/panButton"
+        tools:srcCompat="@drawable/silla_word" />
 
     <ImageButton
         android:id="@+id/quererButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/querer_word"
-        app:layout_constraintStart_toEndOf="@+id/one22"
+        app:layout_constraintStart_toEndOf="@+id/amigaButton"
         app:layout_constraintTop_toBottomOf="@+id/nosotrosButton"
         tools:srcCompat="@drawable/querer_word" />
 
     <ImageButton
-        android:id="@+id/one46"
+        android:id="@+id/maizButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toEndOf="@+id/one44"
-        app:layout_constraintTop_toTopOf="@+id/one44"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/maiz_word"
+        app:layout_constraintStart_toEndOf="@+id/madreButton"
+        app:layout_constraintTop_toTopOf="@+id/madreButton"
+        tools:srcCompat="@drawable/maiz_word" />
 
     <ImageButton
-        android:id="@+id/one41"
+        android:id="@+id/perroButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toEndOf="@+id/one43"
-        app:layout_constraintTop_toTopOf="@+id/one43"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/perro_word"
+        app:layout_constraintStart_toEndOf="@+id/polloButton"
+        app:layout_constraintTop_toTopOf="@+id/polloButton"
+        tools:srcCompat="@drawable/perro_word" />
 
     <ImageButton
-        android:id="@+id/one36"
+        android:id="@+id/gatoButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toEndOf="@+id/one40"
-        app:layout_constraintTop_toTopOf="@+id/one31"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/gato_word"
+        app:layout_constraintStart_toEndOf="@+id/pajaroButton"
+        app:layout_constraintTop_toTopOf="@+id/espaldaButton"
+        tools:srcCompat="@drawable/gato_word" />
 
     <ImageButton
         android:id="@+id/casaAmigaButton"
@@ -244,27 +244,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/necesitar_word"
-        app:layout_constraintStart_toStartOf="@+id/one22"
+        app:layout_constraintStart_toStartOf="@+id/amigaButton"
         app:layout_constraintTop_toBottomOf="@+id/ellosButton"
         tools:srcCompat="@drawable/necesitar_word" />
 
     <ImageButton
-        android:id="@+id/one29"
+        android:id="@+id/aguaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
+        android:src="@drawable/agua_word"
         app:layout_constraintStart_toEndOf="@+id/abrigoButton"
         app:layout_constraintTop_toTopOf="@+id/abrigoButton"
-        tools:srcCompat="@drawable/one" />
+        tools:srcCompat="@drawable/agua_word" />
 
     <ImageButton
-        android:id="@+id/one21"
+        android:id="@+id/barcoButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toEndOf="@+id/one36"
+        android:src="@drawable/barco_word"
+        app:layout_constraintStart_toEndOf="@+id/gatoButton"
         app:layout_constraintTop_toBottomOf="@+id/casaAmigoButton"
-        tools:srcCompat="@drawable/one" />
+        tools:srcCompat="@drawable/barco_word" />
 
     <ImageButton
         android:id="@+id/banarButton"
@@ -276,13 +276,13 @@
         tools:srcCompat="@drawable/banar_word" />
 
     <ImageButton
-        android:id="@+id/one32"
+        android:id="@+id/libroButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toEndOf="@+id/one43"
-        app:layout_constraintTop_toBottomOf="@+id/one23"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/libro_word"
+        app:layout_constraintStart_toEndOf="@+id/polloButton"
+        app:layout_constraintTop_toBottomOf="@+id/cajaButton"
+        tools:srcCompat="@drawable/libro_word" />
 
     <ImageButton
         android:id="@+id/traerButton"
@@ -303,22 +303,22 @@
         tools:srcCompat="@drawable/ella_word" />
 
     <ImageButton
-        android:id="@+id/one30"
+        android:id="@+id/hermanoButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toStartOf="@+id/one39"
-        app:layout_constraintTop_toTopOf="@+id/one36"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/hermano_word"
+        app:layout_constraintStart_toStartOf="@+id/sillaButton"
+        app:layout_constraintTop_toTopOf="@+id/gatoButton"
+        tools:srcCompat="@drawable/hermano_word" />
 
     <ImageButton
-        android:id="@+id/one43"
+        android:id="@+id/polloButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toEndOf="@+id/one39"
-        app:layout_constraintTop_toTopOf="@+id/one39"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/pollo_word"
+        app:layout_constraintStart_toEndOf="@+id/sillaButton"
+        app:layout_constraintTop_toTopOf="@+id/sillaButton"
+        tools:srcCompat="@drawable/pollo_word" />
 
     <ImageButton
         android:id="@+id/nosotrosButton"
@@ -364,22 +364,22 @@
         tools:srcCompat="@drawable/el_word" />
 
     <ImageButton
-        android:id="@+id/one38"
+        android:id="@+id/diaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toEndOf="@+id/one42"
-        app:layout_constraintTop_toTopOf="@+id/one33"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/dia_word"
+        app:layout_constraintStart_toEndOf="@+id/manzanaButton"
+        app:layout_constraintTop_toTopOf="@+id/chocolateButton"
+        tools:srcCompat="@drawable/dia_word" />
 
     <ImageButton
-        android:id="@+id/one25"
+        android:id="@+id/bebeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
+        android:src="@drawable/bebe_word"
         app:layout_constraintStart_toStartOf="@+id/casaAmigoButton"
         app:layout_constraintTop_toBottomOf="@+id/casaButton"
-        tools:srcCompat="@drawable/one" />
+        tools:srcCompat="@drawable/bebe_word" />
 
     <ImageButton
         android:id="@+id/elegirButton"
@@ -392,23 +392,23 @@
         tools:srcCompat="@drawable/elegir_word" />
 
     <ImageButton
-        android:id="@+id/one42"
+        android:id="@+id/manzanaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="123dp"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toStartOf="@+id/one46"
-        app:layout_constraintTop_toTopOf="@+id/one46"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/manzana_word"
+        app:layout_constraintStart_toStartOf="@+id/maizButton"
+        app:layout_constraintTop_toTopOf="@+id/maizButton"
+        tools:srcCompat="@drawable/manzana_word" />
 
     <ImageButton
-        android:id="@+id/one35"
+        android:id="@+id/camaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toStartOf="@+id/one44"
+        android:src="@drawable/cama_word"
+        app:layout_constraintStart_toStartOf="@+id/madreButton"
         app:layout_constraintTop_toBottomOf="@+id/escuelaButton"
-        tools:srcCompat="@drawable/one" />
+        tools:srcCompat="@drawable/cama_word" />
 
     <ImageButton
         android:id="@+id/comprarButton"
@@ -421,13 +421,13 @@
         tools:srcCompat="@drawable/comprar_word" />
 
     <ImageButton
-        android:id="@+id/one37"
+        android:id="@+id/carroButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/one"
-        app:layout_constraintStart_toEndOf="@+id/one44"
-        app:layout_constraintTop_toTopOf="@+id/one35"
-        tools:srcCompat="@drawable/one" />
+        android:src="@drawable/carro_word"
+        app:layout_constraintStart_toEndOf="@+id/madreButton"
+        app:layout_constraintTop_toTopOf="@+id/camaButton"
+        tools:srcCompat="@drawable/carro_word" />
 
     <ImageView
         android:id="@+id/textboxBgImageView"
